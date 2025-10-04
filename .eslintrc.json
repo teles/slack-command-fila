@@ -1,0 +1,40 @@
+{
+  "root": true,
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaVersion": 2020,
+    "sourceType": "module"
+  },
+  "plugins": [
+    "@typescript-eslint"
+  ],
+  "extends": [
+    "eslint:recommended"
+  ],
+  "rules": {
+    "@typescript-eslint/no-unused-vars": ["error", { "argsIgnorePattern": "^_" }],
+    "prefer-const": "error",
+    "no-console": "warn"
+  },
+  "env": {
+    "node": true,
+    "es6": true,
+    "jest": true,
+    "es2020": true
+  },
+  "globals": {
+    "globalThis": "readonly",
+    "GoogleAppsScript": "readonly",
+    "PropertiesService": "readonly",
+    "Utilities": "readonly",
+    "SpreadsheetApp": "readonly",
+    "UrlFetchApp": "readonly",
+    "ContentService": "readonly",
+    "HtmlService": "readonly",
+    "ScriptApp": "readonly",
+    "Session": "readonly",
+    "Logger": "readonly",
+    "doPost": "writable",
+    "testBot": "writable"
+  }
+}
