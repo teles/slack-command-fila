@@ -4,7 +4,7 @@
 
 /**
  * Função principal que processa requisições HTTP do Slack
- * @param e - Evento HTTP recebido do Slack
+ * @param _e - Evento HTTP recebido do Slack
  * @returns Resposta para o Slack
  */
 // eslint-disable-next-line @typescript-eslint/no-unused-vars, no-unused-vars
